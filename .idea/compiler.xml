@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="OneLake" />
+        <module name="onelake-core" />
+        <module name="onelake-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

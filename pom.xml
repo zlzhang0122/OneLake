@@ -5,7 +5,11 @@
   <groupId>com.zj.onelake</groupId>
   <artifactId>onelake</artifactId>
 
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
+  <modules>
+    <module>onelake-common</module>
+    <module>onelake-core</module>
+  </modules>
   <version>1.0-SNAPSHOT</version>
 
   <name>OneLake</name>
