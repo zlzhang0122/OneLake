@@ -8,3 +8,11 @@
 /dataSources.local.xml
 # Zeppelin ignored files
 /ZeppelinRemoteNotebooks/
+
+OneLake.iml
+misc.xml
+compiler.xml
+vcs.xml
+jarRepositories.xml
+modules.xml
+./libraries/*
