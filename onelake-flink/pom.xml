@@ -15,7 +15,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <flink.version>1.16.3</flink.version>
     </properties>
 
     <dependencies>
@@ -27,9 +26,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-table-common</artifactId>
-            <version>${flink.version}</version>
+            <groupId>com.zj.onelake</groupId>
+            <artifactId>onelake-common</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.zj.onelake.AppTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/zhangjiao/work/github/OneLake/onelake-flink/target/test-classes:/Users/zhangjiao/work/github/OneLake/onelake-flink/target/classes:/Users/zhangjiao/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-table-common/1.16.3/flink-table-common-1.16.3.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-core/1.16.3/flink-core-1.16.3.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-annotations/1.16.3/flink-annotations-1.16.3.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-metrics-core/1.16.3/flink-metrics-core-1.16.3.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-shaded-jackson/2.12.4-15.0/flink-shaded-jackson-2.12.4-15.0.jar:/Users/zhangjiao/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/Users/zhangjiao/.m2/repository/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar:/Users/zhangjiao/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar:/Users/zhangjiao/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/Users/zhangjiao/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/zhangjiao/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-shaded-guava/30.1.1-jre-15.0/flink-shaded-guava-30.1.1-jre-15.0.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-shaded-asm-9/9.2-15.0/flink-shaded-asm-9-9.2-15.0.jar:/Users/zhangjiao/.m2/repository/com/ibm/icu/icu4j/67.1/icu4j-67.1.jar:/Users/zhangjiao/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/zhangjiao/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-shaded-force-shading/15.0/flink-shaded-force-shading-15.0.jar:"/>
+    <property name="java.vm.vendor" value="Tencent"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://jdk.oa.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Users/zhangjiao/apps/jdk1.8.0_372.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/zhangjiao/work/github/OneLake/onelake-flink/target/surefire/surefirebooter-20241020094836831_3.jar /Users/zhangjiao/work/github/OneLake/onelake-flink/target/surefire 2024-10-20T09-48-31_738-jvmRun1 surefire-20241020094836831_1tmp surefire_0-20241020094836831_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/zhangjiao/work/github/OneLake/onelake-flink/target/test-classes:/Users/zhangjiao/work/github/OneLake/onelake-flink/target/classes:/Users/zhangjiao/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-table-common/1.16.3/flink-table-common-1.16.3.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-core/1.16.3/flink-core-1.16.3.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-annotations/1.16.3/flink-annotations-1.16.3.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-metrics-core/1.16.3/flink-metrics-core-1.16.3.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-shaded-jackson/2.12.4-15.0/flink-shaded-jackson-2.12.4-15.0.jar:/Users/zhangjiao/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/Users/zhangjiao/.m2/repository/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar:/Users/zhangjiao/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar:/Users/zhangjiao/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/Users/zhangjiao/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/zhangjiao/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-shaded-guava/30.1.1-jre-15.0/flink-shaded-guava-30.1.1-jre-15.0.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-shaded-asm-9/9.2-15.0/flink-shaded-asm-9-9.2-15.0.jar:/Users/zhangjiao/.m2/repository/com/ibm/icu/icu4j/67.1/icu4j-67.1.jar:/Users/zhangjiao/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/zhangjiao/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/zhangjiao/.m2/repository/org/apache/flink/flink-shaded-force-shading/15.0/flink-shaded-force-shading-15.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/zhangjiao"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Users/zhangjiao/apps/jdk1.8.0_372.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/zhangjiao/work/github/OneLake/onelake-flink"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/zhangjiao/work/github/OneLake/onelake-flink/target/surefire/surefirebooter-20241020094836831_3.jar"/>
+    <property name="sun.boot.class.path" value="/Users/zhangjiao/apps/jdk1.8.0_372.jdk/Contents/Home/jre/lib/resources.jar:/Users/zhangjiao/apps/jdk1.8.0_372.jdk/Contents/Home/jre/lib/rt.jar:/Users/zhangjiao/apps/jdk1.8.0_372.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Users/zhangjiao/apps/jdk1.8.0_372.jdk/Contents/Home/jre/lib/jsse.jar:/Users/zhangjiao/apps/jdk1.8.0_372.jdk/Contents/Home/jre/lib/jce.jar:/Users/zhangjiao/apps/jdk1.8.0_372.jdk/Contents/Home/jre/lib/charsets.jar:/Users/zhangjiao/apps/jdk1.8.0_372.jdk/Contents/Home/jre/lib/jfr.jar:/Users/zhangjiao/apps/jdk1.8.0_372.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_372-b1"/>
+    <property name="user.name" value="zhangjiao"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.5"/>
+    <property name="java.endorsed.dirs" value="/Users/zhangjiao/apps/jdk1.8.0_372.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/zhangjiao/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://git.code.oa.com/JDK/tencentJDK/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/7d/qd9dndvx5q9_4znhchshnc840000gn/T/"/>
+    <property name="java.version" value="1.8.0_372"/>
+    <property name="user.dir" value="/Users/zhangjiao/work/github/OneLake/onelake-flink"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/zhangjiao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Tencent"/>
+    <property name="java.vm.version" value="25.372-b1"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="java.ext.dirs" value="/Users/zhangjiao/Library/Java/Extensions:/Users/zhangjiao/apps/jdk1.8.0_372.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testApp" classname="com.zj.onelake.AppTest" time="0.003"/>
+</testsuite>
