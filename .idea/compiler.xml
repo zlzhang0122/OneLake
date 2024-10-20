@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="onelake-core" />
         <module name="onelake-common" />
+        <module name="onelake-flink" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -9,6 +9,8 @@
   <modules>
     <module>onelake-common</module>
     <module>onelake-core</module>
+    <module>onelake-flink</module>
+    <module>onelake-api</module>
   </modules>
   <version>1.0-SNAPSHOT</version>
 

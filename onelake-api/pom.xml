@@ -7,16 +7,14 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>onelake-core</artifactId>
+    <artifactId>onelake-api</artifactId>
     <packaging>jar</packaging>
 
-    <name>onelake-core</name>
+    <name>onelake-api</name>
     <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <flink.version>1.16.3</flink.version>
-        <project.version>1.0-SNAPSHOT</project.version>
     </properties>
 
     <dependencies>
@@ -25,18 +23,6 @@
             <artifactId>junit</artifactId>
             <version>3.8.1</version>
             <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.zj.onelake</groupId>
-            <artifactId>onelake-common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-table-common</artifactId>
-            <version>${flink.version}</version>
         </dependency>
     </dependencies>
 </project>

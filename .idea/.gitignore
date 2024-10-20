@@ -16,3 +16,5 @@ vcs.xml
 jarRepositories.xml
 modules.xml
 ./libraries/*
+
+../target/*
