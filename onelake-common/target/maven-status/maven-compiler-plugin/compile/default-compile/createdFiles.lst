@@ -1,1 +1,2 @@
-com/zj/onelake/App.class
+com/zj/onelake/serializer/SerializationUtils.class
+com/zj/onelake/serializer/AbstractObjectSerializer.class

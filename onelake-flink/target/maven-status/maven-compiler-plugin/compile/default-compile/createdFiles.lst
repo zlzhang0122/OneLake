@@ -1,1 +1,8 @@
+com/zj/onelake/sink/OneLakeSink.class
+com/zj/onelake/sink/OneLakeTableSInk$1.class
+com/zj/onelake/OneLakeCatalog.class
+org/apache/iceberg/flink/FlinkCatalog.class
+org/apache/iceberg/flink/FlinkCatalogFactory.class
+com/zj/onelake/OneLakeCatalogFactory.class
+com/zj/onelake/sink/OneLakeTableSInk.class
 com/zj/onelake/OneLakeTableFactory.class
