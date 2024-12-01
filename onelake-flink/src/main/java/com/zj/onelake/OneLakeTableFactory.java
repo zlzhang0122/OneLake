@@ -79,7 +79,7 @@ public class OneLakeTableFactory implements DynamicTableSourceFactory, DynamicTa
                             objectIdentifier.getObjectName());
         }
 
-        return new OneLakeTableSInk(tableLoader);
+        return new OneLakeTableSInk(tableLoader, Configuration.fromMap(writeProps));
     }
 
     public DynamicTableSource createDynamicTableSource(Context context) {

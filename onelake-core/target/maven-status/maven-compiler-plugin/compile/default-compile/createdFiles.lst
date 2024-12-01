@@ -1,2 +1,4 @@
 com/zj/onelake/write/DataFile.class
 com/zj/onelake/write/DataFileSerializer.class
+com/zj/onelake/table/Table.class
+com/zj/onelake/table/DataTable.class

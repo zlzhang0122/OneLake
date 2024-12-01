@@ -16,6 +16,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.version>1.0-SNAPSHOT</project.version>
+        <iceberg.version>1.6.1</iceberg.version>
     </properties>
 
     <dependencies>
@@ -26,10 +27,20 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- OneLake Start -->
         <dependency>
             <groupId>com.zj.onelake</groupId>
             <artifactId>onelake-common</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!-- OneLake End -->
+
+        <!-- Iceberg Start -->
+        <dependency>
+            <groupId>org.apache.iceberg</groupId>
+            <artifactId>iceberg-flink-1.19</artifactId>
+            <version>${iceberg.version}</version>
+        </dependency>
+        <!-- Iceberg End -->
     </dependencies>
 </project>
