@@ -30,6 +30,11 @@ public class DataTable implements Table, Serializable {
     }
 
     @Override
+    public Map<String, String> options() {
+        return options;
+    }
+
+    @Override
     public Table copy(Map<String, String> dynamicOptions) {
         this.options.putAll(dynamicOptions);
         return this;

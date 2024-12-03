@@ -17,6 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.version>1.0-SNAPSHOT</project.version>
         <iceberg.version>1.6.1</iceberg.version>
+        <flink.version>1.19.1</flink.version>
     </properties>
 
     <dependencies>
@@ -34,6 +35,14 @@
             <version>${project.version}</version>
         </dependency>
         <!-- OneLake End -->
+
+        <!-- Flink Start -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-core</artifactId>
+            <version>${flink.version}</version>
+        </dependency>
+        <!-- Flink End -->
 
         <!-- Iceberg Start -->
         <dependency>

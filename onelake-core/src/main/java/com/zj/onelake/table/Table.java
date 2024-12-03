@@ -11,5 +11,7 @@ import java.util.Map;
  */
 public interface Table extends org.apache.iceberg.Table, Serializable {
 
+    Map<String, String> options();
+
     Table copy(Map<String, String> dynamicOptions);
 }

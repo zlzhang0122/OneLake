@@ -38,7 +38,7 @@ public class OneLakeTableSInk implements DynamicTableSink {
         return new DataStreamSinkProvider() {
             public DataStreamSink<?> consumeDataStream(DataStream<RowData> dataStream) {
                 OneLakeSink oneLakeSink =
-                        new OneLakeSink(tableLoader, dynamicOptions);
+                        new OneLakeSink(tableLoader, dataStream, dynamicOptions);
                 return oneLakeSink.append();
             }
         };
