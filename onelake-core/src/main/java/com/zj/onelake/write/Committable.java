@@ -7,4 +7,5 @@ package com.zj.onelake.write;
  * @Version 1.0
  */
 public class Committable {
+
 }

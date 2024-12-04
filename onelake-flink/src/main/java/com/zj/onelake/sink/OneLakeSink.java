@@ -17,6 +17,7 @@ import org.apache.iceberg.flink.TableLoader;
 import java.io.IOException;
 import java.io.Serializable;
 import java.io.UncheckedIOException;
+import java.util.UUID;
 
 /**
  * OneLake sink.
@@ -65,6 +66,13 @@ public class OneLakeSink implements Serializable {
 
         DataStream<RowData> distributeStream =
                 new DataStream<>(input.getExecutionEnvironment(), partitioned);
+
+        UUID uuid = UUID.randomUUID();
+        // setup writer operator
+        WriterOperatorFactory writerOperatorFactory =
+                new WriterOperatorFactory(
+                        tableLoader,
+                        uuid);
 
         return null;
     }
