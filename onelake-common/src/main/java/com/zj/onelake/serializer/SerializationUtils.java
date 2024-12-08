@@ -2,7 +2,6 @@ package com.zj.onelake.serializer;
 
 import org.apache.flink.core.memory.MemorySegmentFactory;
 import org.apache.flink.table.data.binary.BinaryRowData;
-import org.apache.flink.table.data.binary.BinarySegmentUtils;
 
 import java.nio.ByteBuffer;
 
